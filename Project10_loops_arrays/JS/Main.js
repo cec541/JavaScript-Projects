@@ -16,6 +16,7 @@ function cat_pics(){
     document.getElementById("Cat").innerHTML = "In this picture, the cat is " +
     Cat_Picture[2] + ".";
 }
+
 function constant_function() {
     const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
     Musical_Instrument.color = "blue";
@@ -41,3 +42,10 @@ let car = {
     }
 };
 document.getElementById("Car_Object").innerHTML = car.description();
+//while loop
+var text = "";
+var x = 2;
+while (x < 11) {
+  text += "<br>The number is " + x;
+  x++;
+}
